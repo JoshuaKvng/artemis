@@ -542,7 +542,7 @@ footer {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100% auto;
     /* Use transform to slide the menu in from the top */
     transform: translateY(-100%);
     transition: transform 0.3s ease-in-out;
@@ -619,6 +619,7 @@ footer {
         gap: 8px; /* Reduces the gap from the previous 15px */
         flex-direction: column; /* Stack the items vertically */
     }
+
 
 
 }
